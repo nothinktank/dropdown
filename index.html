@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="dropdown.css">
+  <script src="dropdown.js" defer></script>
+  <title>Dropdown Menu</title>
+</head>
+<body>
+  <h1>Clickable Dropdown</h1>
+  <div class="overlay" onclick="hideDropdown()"></div>
+  <p>click below to open the dropdown menu</p>
+  <div class="dropdown">
+    <div class="btn" onclick="showDropdown()">I'm a dropdown menu</div>
+      <div class="dropdown-list">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </div>
+  </div>
+  
+</body>
+</html>
